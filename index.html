@@ -6,73 +6,151 @@
 	<link rel="stylesheet" href="css/style.css">	
 </head>
 <body>
-	<header class="wrap">
-		<nav class="header-nav">
-			<img class="logo" src="img/logo.png" alt="">
-			<ul class="header-nav-items">
-				<li><a href="#">关于我们</a></li>
-				<li><a href="#">注册账号</a></li>
-				<li><a href="#" class="login">登陆</a></li>
-			</ul>
-		</nav>	
+
+	<!-- header -->
+	<header>
+		<div class="wrap">
+			<nav class="header-nav">
+				<a href="" title=""><img class="logo" src="img/logo.png" alt=""></a>
+				<ul class="header-nav-items">
+					<li><a href="#">关于我们</a></li>
+					<li><a href="#">注册账号</a></li>
+					<li><a href="#" class="login">登陆</a></li>
+				</ul>
+			</nav>
+		</div>	
 	</header>
+
+	<!-- slider -->
 	<section class="slider">
 		<div class="slider-img" src="img/slider-pic.jpeg" alt=""></div>
 	</section>
+
+	<!-- sign_up_info -->
 	<section class="sign_up_info">
-		<div class="sign_up_form">
-			<div class="sign_up_col left bd1">
-				<div class="sign_up_part">
-					<img class="sign_up_icon" src="img/user.png" alt="">
-					<h2 class="sign_up_title">找工作</h1>
+		<div class="wrap">
+			<div class="sign_up_form">
+				<div class="sign_up_col left bd1">
+					<div class="sign_up_part">
+						<img class="sign_up_icon" src="img/user.png" alt="">
+						<h2 class="sign_up_title">找工作</h1>
+					</div>
+					<div class="sign_up_des">
+						<p>仅需轻松几步注册</p>
+						<p>自动生成卓越简历</p>
+						<p>找到最适合你的工作</p>
+					</div>
+					<a href="" class="sign_up_button">立即注册</a>
 				</div>
-				<div class="sign_up_des">
-					<p>仅需轻松几步注册</p>
-					<p>自动生成卓越简历</p>
-					<p>找到最适合你的工作</p>
-				</div>
-				<button class="sign_up_button">立即注册</button>
+				<div class="sign_up_col right">
+					<div class="sign_up_part">
+						<img class="sign_up_icon" src="img/employee.png" alt="">
+						<h2 class="sign_up_title">找员工</h1>
+					</div>
+					<div class="sign_up_des">
+						<p>岗位需求简单发布</p>
+						<p>人工智能精准匹配</p>
+						<p>快速推荐优秀 IT 人才</p>
+					</div>
+					<a href="" class="sign_up_button">立即注册</a>
 			</div>
-			<div class="sign_up_col right">
-				<div class="sign_up_part">
-					<img class="sign_up_icon" src="img/employee.png" alt="">
-					<h2 class="sign_up_title">找员工</h1>
-				</div>
-				<div class="sign_up_des">
-					<p>岗位需求简单发布</p>
-					<p>人工智能精准匹配</p>
-					<p>快速推荐优秀 IT 人才</p>
-				</div>
-				<button class="sign_up_button">立即注册</button>
 		</div>
 	</section>
+
+	<!-- company_info -->
 	<section class="company_info">
-		<div class="company_info_title">
-		<span>在这里你会发现更多</span><span class="orange">酷公司</span><span>的招聘信息</span>
+		<div class="wrap">
+			<div class="company_info_title">
+			<span>在这里你会发现更多</span><span class="orange">酷公司</span><span>的招聘信息</span>
+			</div>
+			<img class="company_list_img" src="img/company-icon.png" height="210" width="715" alt="">
 		</div>
-		<img class="company_list_img" src="img/company-icon.png" height="210" width="715" alt="">
 	</section>
-	<section class="wrap comment_info">
-		<div class="comment_info_col left">
-			<div class="comment">
-				<div class="comment_content">
-					<h3></h3>
+
+	<!-- comment_info -->
+	<section class="comment_info">
+		<div class="wrap">
+			<div class="comment_info_col left">
+				<div class="comment long">
+					<p>扩张如发酵，没有人才，就发不了面团</p>
+					<div class="comment_speaker">
+						<div class="clearfix">
+							<img class="speaker_icon" src="img/people-xxp.jpg" height="100" width="100" alt="">
+							<div class="speaker_name">
+	               <p>徐小平</p>
+	               <p class="speaker_title">真格基金 合伙人</p>
+	            </div>
+          	</div>
+					</div>
 				</div>
-				<div class="comment_speaker">
-					<img class="speaker_icon" src="" alt="">
-					<h4 class="speaker_title"></h4>
+				<div class="comment">
+					<p>新工作令我非常激动， 感谢哪上班的匹配推荐。我要推荐给其他的程序员们</p>
+					<div class="comment_speaker">
+						<div class="clearfix">
+							<img class="speaker_icon" src="img/people-ty.jpg" height="100" width="100" alt="">
+							<div class="speaker_name">
+	               <p>田宇</p>
+	               <p class="speaker_title">MongoDB 工程师</p>
+	            </div>
+          	</div>
+					</div>
+				</div>
+				<div class="comment up">
+					<p>我们公司很满意。通过哪上班非常轻松地联系到了合适的软件工程师！希望你们发展的更好</p>
+					<div class="comment_speaker">
+						<div class="clearfix">
+							<img class="speaker_icon" src="img/people-jon.jpg" height="100" width="100" alt="">
+							<div class="speaker_name">
+	               <p>Jon Wagner</p>
+	               <p class="speaker_title">YangMarket 负责人</p>
+	            </div>
+          	</div>
+					</div>
 				</div>
 			</div>
-			<div class="comment"></div>
-			<div class="comment"></div>
-		</div>
-		<div class="comment_info_col right">
-			<div class="comment"></div>
-			<div class="comment"></div>
-			<div class="comment"></div>
+			<div class="comment_info_col right">
+				<div class="comment">
+					<p>非常喜欢「哪上班」所为我匹配的心仪工作。 他们将改变招聘的方式</p>
+					<div class="comment_speaker">
+						<div class="clearfix">
+							<img class="speaker_icon" src="img/people-zyn.jpg" height="100" width="100" alt="">
+							<div class="speaker_name">
+	               <p>张伊诺</p>
+	               <p class="speaker_title">iOS 工程师</p>
+	            </div>
+          	</div>
+					</div>
+				</div>
+				<div class="comment">
+					<p>简历生成非常简单，整个使用过程体验非常舒服，强烈推荐给找工作的朋友</p>
+					<div class="comment_speaker">
+						<div class="clearfix">
+							<img class="speaker_icon" src="img/people-ycz.jpg" height="100" width="100" alt="">
+							<div class="speaker_name">
+	               <p>姚程志</p>
+	               <p class="speaker_title">算法工程师</p>
+	            </div>
+          	</div>
+					</div>
+				</div>
+				<div class="comment long">
+					<p>任何一个好的老板至少要把 20% 的时间放在招聘上，我也从来没有少过 20%</p>
+					<div class="comment_speaker">
+						<div class="clearfix">
+							<img class="speaker_icon" src="img/people-lkf.jpg" height="100" width="100" alt="">
+							<div class="speaker_name">
+	               <p>李开复</p>
+	               <p class="speaker_title">创新工场 CEO</p>
+	            </div>
+          	</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</section>
-	<footer>
+
+	<!-- footer -->
+	<footer class="footer">
 		<div class="wrap">
 			<div class="footer-wrap">
 			<p class="copyright">&copy;2012 哪上班・京ICP备11010522号</p>
@@ -84,5 +162,6 @@
 			</div>
 		</div>
 	</footer>
+
 </body>
 </html>
